@@ -1,0 +1,197 @@
+body {
+  background: #201020;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.title-principal {
+  text-align: center;
+  margin: 0 auto 20px;
+  display: block;
+  max-width: 800px;
+}
+.form-container {
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 50px;
+  max-width: 800px;
+  width: 100%;
+}
+.form-container button {
+  border: none;
+  cursor: pointer;
+}
+.generate-button {
+  background-color: aqua;
+  opacity: 0.66;
+}
+textarea {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+}
+/* Estilo para todos los elementos del formulario */
+.form-container label,
+.form-container input[type="text"],
+.form-container textarea,
+.form-container button {
+  margin-bottom: 10px;
+  /* Agrega separación entre cada elemento del formulario */
+}
+/* .textincindencia {
+  height: 200px; 
+  resize: vertical;
+  padding: 5px;
+  border: 1px solid #ccc;
+} */
+label {
+  display: block;
+
+}
+
+input {
+  width: 100%;
+  height: 30px;
+}
+
+textarea {
+  min-width: 550px;
+  max-height: 400px;
+}
+
+span {
+  display: block;
+  color: rgba(255, 6, 6, 0.999);
+  font-size: x-small;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button-container button {
+  margin: 0 35px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  /* Cambia el ancho del contenedor según sea necesario */
+  max-width: 800px;
+  /* Limita el ancho máximo del contenedor */
+  margin-right: 20px;
+}
+
+.form-container {
+  flex-grow: 1;
+  /* Permite que el formulario crezca para llenar el espacio restante */
+  margin-right: 20px;
+}
+
+.message {
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.image {
+  max-width: 200px;
+  /* Ajusta el tamaño de la imagen según tu necesidad */
+  margin-right: 20px;
+
+}
+
+.ad-container {
+  background-color: #f9f9f5;
+  /* Cambia el color de fondo */
+  padding: 20px;
+  /* Agrega espacio alrededor del contenido */
+  border-radius: 30px;
+  /* Agrega bordes redondeados */
+  margin-left: auto;
+
+}
+
+.ad-container {
+  position: absolute;
+  top: 37px;
+  right: 0;
+  margin-right: 25px;
+  /* Ajusta el margen derecho según sea necesario */
+  margin-top: 10px;
+  /* Ajusta el margen superior según sea necesario */
+  height: 400px;
+
+}
+
+p {
+  color: #858185;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+img {
+  color: #b1aeb1;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.number {
+  font-size: 40px;
+}
+
+.ad-container {
+
+  margin-top: 20px;
+  /* Agrega un margen superior al anuncio */
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .ad-container {
+    position: relative;
+    /* Cambia la posición a relativa */
+    margin-top: 20px;
+    /* Agrega un margen superior */
+    margin-bottom: 20px;
+    /* Agrega un margen inferior para separarlo del formulario */
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+  }
+}
